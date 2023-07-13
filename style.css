@@ -142,7 +142,11 @@ a {
 #oil-type {
     margin-top: 59px;
 }
-
+#oil-type .row{
+    width: 1050px !important;
+    text-align: center;
+    margin: auto;
+}
 #type_menu {
     display: flex;
     flex-direction: row;
@@ -150,20 +154,25 @@ a {
     justify-content: center;
 
 }
-
+.carousel-control-prev{
+    left:-75px
+}
+.carousel-control-next {
+    right: -75px;
+}
 #type_menu .fa-solid {
     font-size: 30px;
 }
 
 #img-container {
-    margin-right: 44px;
+    margin-right: 25px;
     padding: -1px 79px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 170px;
-    width: 225px;
+    width: 170px;
     background-color: #F8F8F8;
     border-radius: 25px;
 }
@@ -546,12 +555,7 @@ a {
     letter-spacing: 0.1em;
     text-align: center;
 }
-.carousel-control-prev{
-    left:-111px
-}
-.carousel-control-next {
-    right: -111px;
-}
+
 #images {
     margin-top: 52px;
     display: flex;
